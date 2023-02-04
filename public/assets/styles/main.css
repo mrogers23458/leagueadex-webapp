@@ -1,0 +1,107 @@
+/* ultilities */
+
+/* background colors */
+.background-blue {
+    background: blue;
+}
+
+.background-main-blue {
+    background: #203354;;
+}
+
+.background-red{
+    background: red;
+}
+.background-yellow {
+    background: yellow;
+}
+.background-green {
+    background: green
+}
+
+.background-white {
+    background: white;
+}
+
+/* font colors */
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.image-container {
+    width: 25rem;
+    height: 20rem;
+}
+
+/* App Content Container */
+.content {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LeagueaDex Container */
+.main-container {
+    width: 40rem;
+    height: 45rem;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5% 1% 1% 5%;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.circle-small {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin: 0.5rem
+}
+
+.header-circles-container {
+    display: flex;
+    position: relative;
+    top: -1rem;
+}
+
+/* Search Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin-top: 2rem;
+}
