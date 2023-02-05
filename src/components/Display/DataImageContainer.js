@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function DataImageContainer({ data }) {
   const charName = Object.keys(data)[0];
   const character = data[charName];
+  console.log({ character });
 
   function getDifficulty() {
     if (difficulty === 1) {
