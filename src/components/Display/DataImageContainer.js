@@ -31,15 +31,15 @@ export default function DataImageContainer({ data }) {
 
   return (
     <div className="data-image-container">
-      <div className="border-white container">
-        <div className="border-white half center">
+      <div className="data-image-info-container">
+        <div className="half center">
           <Image
             priority
             className="data-image"
-            height={150}
-            width={150}
+            height={125}
+            width={125}
             alt="riot logo"
-            src={`http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${charName}_0.jpg`}
+            src={`http://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/${charName}.png`}
           />
         </div>
         <div className="half column-center">
@@ -54,12 +54,16 @@ export default function DataImageContainer({ data }) {
         </div>
       </div>
       <div className="widget-card-container">
-        <p className="widget-card">Player Tips</p>
-        <p className="widget-card">How to counter</p>
-        <p className="widget-card">More Info</p>
-        <p className="widget-card">Lore</p>
-        <p className="widget-card">Passive</p>
-        <p className="widget-card">Spells & Descriptions</p>
+        <div className="widget-card-row">
+          <div className="widget-card">Player Tips</div>
+          <div className="widget-card">How to counter</div>
+          <div className="widget-card">More Info</div>
+        </div>
+        <div className="widget-card-row">
+          <div className="widget-card">Lore</div>
+          <div className="widget-card">Passive</div>
+          <div className="widget-card">Spells & Descriptions</div>
+        </div>
       </div>
     </div>
   );
